@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="stat_FX_line_pie_chart.jnlp">
+  <information>
+    <title>stat_FX_line_pie_chart</title>
+    <vendor>mahjoub</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="stat_FX_line_pie_chart.jar" size="5029" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="stat_FX_line_pie_chart" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="stat_fx_line_pie_chart.Stat_FX_line_pie_chart"  name="stat_FX_line_pie_chart" />
+  <update check="always"/>
+</jnlp>
